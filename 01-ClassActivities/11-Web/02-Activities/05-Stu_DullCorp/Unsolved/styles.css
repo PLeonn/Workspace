@@ -1,0 +1,24 @@
+header {
+	text-align: center;
+}
+section {
+	background-color: grey;
+  }
+  h1 {
+	color: blue;
+  }
+  h2 {
+	color: red;
+  }
+  h3 {
+	color: powderblue;
+  }
+  p {
+	font-size: 10x;
+  }
+  ul {
+	  border: 2px;
+  }
+  img {
+	  box-shadow: 3px 4px pink;
+  }
