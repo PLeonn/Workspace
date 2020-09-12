@@ -14,10 +14,9 @@
     <h1 class="jumbotron">Dogs up for Adoption!</h1>
     <div>
       <ul style="list-style: none;">
-
-        <!-- Loop through the dictionary -->
-
-
+        {% for dog in list %}
+        <li>{{ dog.name }}: {{ dog.type }}</li>
+        {% endfor %}
       </ul>
     </div>
   </div>
